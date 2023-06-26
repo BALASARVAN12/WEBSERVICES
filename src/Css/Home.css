@@ -1,0 +1,8 @@
+.carousel-item{
+    height: 658px; /* Adjust the height as per your requirements */
+    z-index: -1;
+  }
+  
+.home{
+    z-index: -1;
+}

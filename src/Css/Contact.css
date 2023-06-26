@@ -1,0 +1,72 @@
+#contact_image1{
+    width: 500px;
+    height: 500px;
+    margin-left: 1000px;
+
+}
+.contact_section_1{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20PX;
+}
+.content_text{
+    text-align: justify;
+    padding-left: 50px;
+}
+.location_1_head{
+    padding-left: 70px; 
+}
+.location_2_head{
+    padding-left: 70px;    
+}
+.location_3_head{
+    padding-left: 70px;
+}
+.location_2{
+    display: flex;
+    flex-direction: row;
+}
+.location_3_head a{
+    color: red;
+}
+.location_2_head a{
+    color: red;
+}
+.location_1_head a{
+    color: red;
+}
+.contact_section_1 .left{
+    display: flex;
+    padding: 20px;
+}
+.contact_section_1 .right{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-left: 950px;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .contact_section_1 .right {
+      width: 100%;
+      max-width: none;
+      margin:  auto; /* Adjust margin as needed */
+      text-align: justify;
+    }
+    
+    .location_2,
+    .location_3 {
+      flex-direction: column;
+      text-align: justify;
+    }
+  
+    .location_1_head,
+    .location_2_head,
+    .location_3_head {
+      padding-left: 0;
+      text-align: justify;
+      padding-left: 50px;
+    }
+  }
+  

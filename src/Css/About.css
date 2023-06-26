@@ -1,0 +1,25 @@
+/* About.css */
+p {
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+  }
+  
+  .ourteam {
+    display: flex;
+  }
+  
+  .ourteam img {
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    margin-right: 10px;
+  }
+  
+  .img-content p {
+    padding: 70px;
+  }
+
+  .img-content a{
+    color: red;
+  } 
