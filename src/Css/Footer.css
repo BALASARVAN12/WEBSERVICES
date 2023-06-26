@@ -2,6 +2,8 @@
     padding: 4rem 6rem;
     background: black;
     color: white;
+z-index: 1;
+position: relative;
 }
 .top{
     display: flex;

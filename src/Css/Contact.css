@@ -4,6 +4,17 @@
     margin-left: 1000px;
 
 }
+#header{
+    background-image: url("../Images/pattern-bg-brown.jpg");
+  height: 350px;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 125px;
+  position: relative;
+  z-index: 5;
+}
 .contact_section_1{
     display: flex;
     flex-direction: column;

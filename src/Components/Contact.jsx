@@ -1,23 +1,13 @@
 import React from "react";
 import "../Css/Contact.css";
-import contact1 from "../Images/contact1.jpg";
-import contact2 from "../Images/contact2.jpg";
 //import { Breadcrumb } from 'antd';
-
-import contact_banner from "../Images/pattern-bg-blue.jpg";
-import Hero from "./Hero";
 
 export default function Contact() {
   return (
     <div>
-      <Hero
-        cName="hero"
-        heroImg={contact_banner}
-        title="Contact Us"
-        text="Thank you for your intrest in our Alphanumeric Ideas Services
-      Contact us today to learn more about how we can assist you in maximizing your productivity and efficiency.
-      "
-      />
+      <div id="header">
+Contact Us
+      </div>
       <br />
       <div className="contact_section_1">
         <h5>
