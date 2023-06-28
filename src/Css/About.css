@@ -27,7 +27,7 @@
   }
 }
 p{
-  font-size: 18px;
+  font-size: 20px;
   padding: 90px;
   text-align: justify;
   margin-bottom:10px;
@@ -38,7 +38,7 @@ p{
 }
 
 .image-container img {
-  width: 155.45px;
+  width: 160px;
   height: 162.35px;
   margin-left: 400px;
 }
@@ -177,11 +177,129 @@ p{
 .ourteam h3{
   color: grey;
 }
-.teammembers img{
-  width:150px;
-  height:auto;
-  margin-bottom: 30px;
-  margin-right: 100px;
-  display: inline-block;
-  vertical-align: middle;
+.teammembers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.member {
+  flex-basis: calc(33.33% - 20px);
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .member {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .member {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .teammembers .member:nth-child(4),
+  .teammembers .member:nth-child(5),
+  .teammembers .member:nth-child(6) {
+    flex-basis: calc(38.33% - 20px);
+  }
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#team_image {
+
+  width: 100px; /* Adjust the width as needed */
+}
+
+h4,
+h5 {
+  margin: 5px 0;
+}
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+}
+
+.social_icon ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.social_icon ul li {
+  margin: 0 5px;
+}
+
+.social_icon ul li a img {
+  width: 20px; /* Adjust the width as needed */
+}
+
+/**/
+.borderbox {
+  padding: 20px;
+  height: 446px;
+  padding-top: 100px;
+}
+
+.support {
+
+  flex-wrap: wrap;
+
+}
+
+.column {
+  flex-basis: 33%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+h3 {
+  margin-top: 0; 
+}
+
+p {
+  margin-top: 5px; 
+}
+/**/
+.vision-box{
+  padding-top: 60px;
+  background-color: rgb(244, 177, 8);
+  height: 700px;
+}
+.vision h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+}
+
+.vision img{
+  mix-blend-mode: multiply;
+  z-index: -1;
+}
+
+.vision p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  max-width: 600px;
+}
+

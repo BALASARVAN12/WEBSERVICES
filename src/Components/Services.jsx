@@ -46,13 +46,13 @@ Start Now!
 
         </div>
         <Card
-          backgroundColor="green"
+          backgroundColor="#3CB878"
           heading="Web Design"
           paragraph="Our web design service focuses on creating visually appealing and user-friendly websites. We use modern design techniques, responsive layouts, and intuitive navigation to enhance user experience and convey your brand message effectively."
           imageUrl={services5}
         />
         <Card
-          backgroundColor="blue"
+          backgroundColor="#6739B6"
           heading="Web Development"
           paragraph="Our web development service involves the creation of dynamic and interactive websites. Our experienced developers use the latest technologies and frameworks to build robust and scalable web solutions that meet your specific business requirements."
           imageUrl={services2}
@@ -62,19 +62,19 @@ Start Now!
       <div style={{ display: "flex", justifyContent: "center" }}>
         {/* Row 2 */}
         <Card
-          backgroundColor="red"
+          backgroundColor="#F15B26"
           heading="Website Maintenance and Support"
           paragraph="We provide ongoing website maintenance and support services to ensure your website remains up-to-date, secure, and optimized for performance. From regular updates and backups to bug fixes and troubleshooting, our team is dedicated to keeping your website running smoothly."
           imageUrl={services3}
         />
         <Card
-          backgroundColor="purple"
+          backgroundColor="#FCB03B"
           heading="CMS Development"
           paragraph="We offer content management system (CMS) development to provide you with full control over your website's content. Our CMS solutions enable you to easily manage and update your website's text, images, and multimedia without any technical knowledge, saving you time and effort."
           imageUrl={services4}
         />
         <Card
-          backgroundColor="orange"
+          backgroundColor="#4CC2C0"
           heading="Application Development"
           paragraph="Our application development service focuses on building custom software solutions to meet your unique business needs. Whether it's a mobile app or a web-based application, we utilize cutting-edge technologies and industry best practices to deliver high-performance and scalable applications."
           imageUrl={services6}

@@ -14,7 +14,6 @@ img {
   vertical-align: middle;
   background-color: transparent;
 }
-
 .mail {
   width: 600px;
   height: 290px;
@@ -71,10 +70,33 @@ img {
   margin-left: 30px;
 }
 
-.gear {
-  width: 58px;
-  height: 57px;
+.gear.rotate {
+  -webkit-animation: rotate 1s;
+  animation: rotate 1s;
 }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0);
+    transform: rotate(360deg) translateZ(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0);
+    transform: rotate(360deg) translateZ(0);
+  }
+}
+
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {

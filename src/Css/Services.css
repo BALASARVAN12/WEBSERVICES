@@ -15,7 +15,8 @@
   z-index: 5;
 }
 .card_1{
-  width: 400px;    
+  width: 400px;  
+  margin-right: 20px;  
 }
 .ser{
   font-weight: 400;

@@ -1,3 +1,7 @@
+.ceffect{
+  width: 100%;
+  height: 750px;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -6,17 +10,14 @@
   flex-direction: row;
   
 }
-
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
-
 .medium-padding120 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .offers {
   text-align: left;
 }
@@ -90,14 +91,190 @@
     border: 2px solid black;
     padding: 20px;
 }
-  #btn1{
+#btn1{
     border-radius: 45px;
     border: 2px solid;
     background-color: #4cc2c0;
     padding: 20px;
     margin-left: 32px;
-  }
+}
+#offers_1{
+  padding-left: 200px;
+}
+.slider-slides{
+    display: flex;
+}
+
+#button_carosuel1 {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  background-color: #ffffff;
+  color: #2f2c2c;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  border-color: #ffffff;
+}
+#button_carosuel1 button {
+  flex: 1;
+  height: 100%;
+}
+#button_carosuel2 {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  background-color: #4cc2c0;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  border-color: #4cc2c0;
+}
+#button_carosuel2 button {
+  flex: 1;
+  height: 100%;
+}
+#button_carosuel3 {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  background-color: #f15b26;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  border-color: #f15b26;
+}
+#button_carosuel3 button {
+  flex: 1;
+  height: 100%;
+}
+#button_carosuel4 {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  background-color: #fcb03b;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  border-color: #fcb03b;
+}
+#button_carosuel4 button {
+  flex: 1;
+  height: 100%;
+}
+#button_carosuel5 {
+  width: 320px;
+  height: 150px;
+  display: flex;
+  background-color: #3cb878;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  border-color: #3cb878;
+}
+#button_carosuel5 button {
+  flex: 1;
+  height: 100%;
+}
+#slider1 {
+  display: flex;
+  justify-content: center;
+  width: 1180px;
+  padding-top: 320px;
+  padding-left: 300px;
+}
+#slider2 {
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-top: 150px;
+  padding-right: 150px;
+}
+#slider3 {
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-top: 150px;
+  padding-right: 150px;
+}
+#slider4 {
+  display: flex;
+  justify-content: center;
+  width: 1180px;
+  padding-top: 320px;
+  padding-left: 300px;
+}
+#slider5 {
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-top: 150px;
+  padding-right: 150px;
+}
+.slide1 {
+  width: auto;
+  height: 723px;
+}
+.slide2 {
+  width: auto;
+  height: 723px;
+}
+.slide3 {
+  width: auto;
+  height: 723px;
+}
+.slide4 {
+  width: auto;
+  height: 723px;
+}
+.slide5 {
+  width: auto;
+  height: 723px;
+}
+.web_design {
+  text-align: justify;
+  padding-bottom: 205px;
+  padding-right: 300px;
+}
+
+.cms_development {
+  padding-bottom: 350px;
+  align-items: center;
+  text-align: center;
+  font-size: 26px;
+}
+#cms_development{
   
+}
   /* Responsive Styles */
   
   @media (max-width: 767px) {

@@ -1,9 +1,26 @@
-import React from 'react';
+import React ,{ useRef, useState, useEffect }from 'react';
 import "../Css/NewsLetterform.css"
 import sub1 from "../Images/subscr-gear.png";
 import sub2 from "../Images/subscr1.png";
 import sub3 from '../Images/subscr-mailopen.png'
 export default function NewsLetterform() {
+  const imageRef = useRef(null);
+  const [shouldRotate, setShouldRotate] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = imageRef.current;
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+        setShouldRotate(isVisible);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className='newsletter'>
 <img src={sub2} alt="sub2" className='mail' />
@@ -20,7 +37,7 @@ Sign up for new content, updates, surveys & offers by Alphanumericideas!
 </div>
 <div className='image-block'>
 <img src={sub3} alt="" className='mail_2'  style={{opacity:"1",right:"20px"}}/>
-<img src={sub1} alt="" className='gear' />
+<img ref={imageRef} src={sub1} alt="" className={`gear ${shouldRotate ? "rotate" : ""}`}  />
 </div>
 
     </div>

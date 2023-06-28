@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header_ourwork{
+    background-image: url("../Images/pattern-bg-red.jpg");
+    height: 350px;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 125px;
+    position: relative;
+    z-index: 5;
+  }

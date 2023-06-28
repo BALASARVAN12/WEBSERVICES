@@ -3,6 +3,21 @@ import "../Css/About.css"
 import foundation from "../Images/foundation.jpg"
 import team from "../Images/team.jpg"
 import zs from"../Images/zippinderpal-singh.jpg"
+import rs from"../Images/rajendrapal=singh.jpg";
+import NewsLetterform from "./NewsLetterform";
+
+import fb from"../Images/fb_icon.jpg"
+import twitter from"../Images/twitter_icon.jpg"
+import mail from"../Images/google_icon.jpg"
+import director from"../Images/director.jpg"
+import hr from"../Images/hr.jpg"
+import msg from"../Images/msg.jpg"
+import at from"../Images/at.jpg"
+import hp from"../Images/hp.jpg"
+import ps from"../Images/ps.jpg"
+import pb from"../Images/pb.jpg"
+//import google from "../Images/google_icon.jpg";
+//import linkedin from "../Images/linkedin_logo.jpeg"
 export default function About() {
   const [selectedYear, setSelectedYear] = useState(null);
 
@@ -76,15 +91,210 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
 <div className="ourteam">
   <h2>Meet Our Experts</h2>
   <div className="line"></div>
-  <h3>AlphaNumericIdeas Team</h3>
+  <h3>AlphaNumericIdeas Team</h3><br></br>
+  
   <div className="teammembers">
-    <img src={zs} alt="z-s"></img>
-    <h3>Zippinderpal Singh</h3>
+  <div className="row">
+    <div className="member">
+      <img src={zs} alt="z-s" id="team_image" />
+      <h4>Zippinderpal Singh</h4>
+      <h5>CEO</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={zs} alt="z-s"id="team_image" />
+      <h4>Zippinderpal Singh</h4>
+      <h5>CEO</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={zs} alt="z-s" id="team_image" />
+      <h4>Zippinderpal Singh</h4>
+      <h5>CEO</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    {/* Repeat the above code for the remaining team members */}
+    
   </div>
 
+  <div className="row">
+    <div className="member">
+      <img src={director} alt="member3" id="team_image"/>
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3"id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3" id="team_image"/>
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
 
+    {/* Repeat the above code for the remaining team members */}
+    
+  </div>
+  <div className="row">
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+
+    {/* Repeat the above code for the remaining team members */}
+    
+  </div>
+  <div className="row">
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div className="member">
+      <img src={director} alt="member3" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
+      <div className="social_icon">
+        <ul>
+          <li><a href="#"><img src={fb} alt="" /></a></li>
+          <li><a href="#"><img src={twitter} alt="" /></a></li>
+          <li><a href="#"><img src={mail} alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+
+    {/* Repeat the above code for the remaining team members */}
+    
+  </div>
 </div>
 
+
+  </div>
+  
+  <div className="borderbox">
+  <div className="support">
+    <div className="row">
+      <div className="column">
+        <img src={msg} alt="msg"  />
+        <h3>24x7 Support</h3>
+        <span>We are ready to help at any time.<br/>Feel free to reach us.</span>
+      </div>
+      <div className="column">
+        <img src={at} alt="msg" />
+        <h3>Awesome Team</h3>
+        <span>Experienced Google AdWords Certified Team.<br/>Specialists in AdWords.</span>
+      </div>
+      <div className="column">
+        <img src={hp} alt="msg" />
+        <h3>Awesome Team</h3>
+        <span>Experienced Google AdWords Certified Team.<br/>Specialists in AdWords.</span>
+      </div>
     </div>
+  </div>
+</div>
+
+<div className="vision-box">
+  <div className="vision">
+  <h3>Our Vision</h3>
+  <div className="line2"></div>
+    <img src={pb} alt="pb" id="our_vison" />
+    <p>mnfinrjvitjvi</p>
+    </div>  
+</div>
+<NewsLetterform />
+</div>
   );
 }
