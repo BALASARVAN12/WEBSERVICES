@@ -4,10 +4,11 @@ import "../Css/Contact.css";
 import contact7 from "../Images/contact7.png";
 import contact8 from "../Images/contact8.png";
 import contact9 from '../Images/contact9.png';
+import Appointment_page from "./Appointment_page";
 export default function Contact() {
   return (
     <div>
-      <div id="header">
+      <div id="header_12">
 Thank You      </div>
       <div className="get_in_touch">
       <div className="container">
@@ -45,7 +46,6 @@ Thank You      </div>
         ></iframe>
       </div>
     </div>
- 
     </div>
   );
 }
