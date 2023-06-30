@@ -98,7 +98,7 @@ export default function Contact() {
       <div className="contact_form">
         <div className="left">
           <span className="h4" style={{ textAlign: "center" }}>
-            Or Send Message us:
+            Or Send Us Message :
           </span>
           <div className="heading-line1">
           <span className="short-line1"></span>
@@ -156,7 +156,6 @@ export default function Contact() {
           </form>{" "}
           <br />
         </div>
-        <div className="right">jdbv</div>
       </div>
     </div>
   );
