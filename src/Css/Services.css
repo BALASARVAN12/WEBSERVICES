@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header{
-  background-image: url("../Images/pattern-bg-violet.jpg");
+.header_our_services{
+  background-image: url("../Images/pattern-bg-orange.jpg");
   height: 350px;
   font-size: 50px;
   line-height: 100px;
@@ -47,3 +47,4 @@
   color: #ACACAF;
   
 }
+

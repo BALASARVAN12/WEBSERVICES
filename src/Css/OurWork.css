@@ -1,10 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 #header_ourwork{
-    background-image: url("../Images/pattern-bg-red.jpg");
+    background-image: url("../Images/pattern-bg-lightblue.jpg");
     height: 350px;
     font-size: 50px;
     line-height: 100px;
@@ -13,4 +8,248 @@
     padding: 125px;
     position: relative;
     z-index: 5;
+  }
+.Colloborate{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color:#c7e2e2;
+}
+.work{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:200px ;
+    vertical-align: middle;
+    display: flex;
+}
+#workimg img{
+    mix-blend-mode: multiply;
+    width: 470px;
+    height:419px;
+    float:left;
+}
+.work p{
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    color: rgb(18, 17, 17);
+    display: justify;
+
+}
+.work a{
+    font-size: 23px;
+    color: red;
+}
+.work h6{
+    color: gray;
+}
+.heading{
+    text-align: center;
+}
+.line {
+    display:inline-flex;
+    width: 0;
+    height: 2px;
+    background-color: rgb(19, 167, 197);
+    animation: grow 2s infinite linear;
+  }
+@keyframes grow{
+    from{
+        width:10;
+
+    }
+    to{
+        width:30%;
+    }
+}
+.clients{
+    margin-top: 30px;
+}
+.clients h5{
+    color:yellowgreen
+}
+/* Ourwork.css */
+.alllogos{
+    padding-left: 50px;
+}
+.logos{
+    margin-left: 100px;
+}
+.logo1 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo2{
+    margin-left: 100px;
+}
+.logo2 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo3{
+    margin-left: 100px;
+}
+.logo3 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo4{
+    margin-left: 100px;
+}
+.logo4 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo5{
+    margin-left: 100px;
+}
+.logo5 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo6{
+    margin-left: 100px;
+}
+.logo6 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo7{
+    margin-left: 100px;
+}
+.logo7 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.logo8{
+    margin-left: 100px;
+}
+.logo8 img{
+    width:182px;
+    margin-right: 195px;
+    mix-blend-mode: multiply;
+}
+.line2 {
+    display: -webkit-inline-flex;
+    align-items: start;
+    width: 0;
+    height: 2px;
+    background-color: rgb(19, 167, 197);
+    animation: growline 2s infinite linear;
+    margin-top: 0;
+  }
+@keyframes growline{
+    from{
+        width:10;
+
+    }
+    to{
+        width:30%;
+    }
+}
+.customers{
+    margin-top: 50px;
+   padding-left: 100px;
+   text-align: start;
+
+}
+.flash-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .flash-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+    float:onclick;
+  }
+  
+  .flash-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .flash-card-content {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .flash-card {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  .line3 {
+    display:inline-flex;
+    width: 0;
+    height: 2px;
+    background-color: rgb(19, 167, 197);
+    animation: growl 2s infinite linear;
+    margin-top: 0;
+  }
+@keyframes growl{
+    from{
+        width:10;
+
+    }
+    to{
+        width:20%;
+    }
+}
+.accrediations{
+    display: flex;
+    align-items: center;
+    background-color:#f7f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+.accrediations img{
+    padding-left: 60px;
+    width:180px;
+    margin-right: 105px;
+    mix-blend-mode: multiply;
+}
+.more{
+    background-color:aquamarine;
+    display:flex;
+    gap: 30px;
+}
+.more h2{
+    margin-top: 150px;
+    padding-left: 300px;
+    margin-bottom: 100px;
+}
+  
+.btn1 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    border-radius: 50rem;
+    padding: 12px 24px;
+    background-color: #161f17;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0.15rem 0.15rem block;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #edefe1;
   }

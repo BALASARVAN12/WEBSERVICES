@@ -7,6 +7,8 @@
 .newsletter {
   background-color: #3CB878;
   display: flex;
+  z-index: 89;
+  position: relative;
 }
 
 img {
@@ -14,6 +16,7 @@ img {
   vertical-align: middle;
   background-color: transparent;
 }
+
 .mail {
   width: 600px;
   height: 290px;
@@ -27,36 +30,35 @@ img {
   justify-content: center;
 }
 
-#mail_input {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 13px;
-  padding-left: 30px;
-  font-size: 16px;
-  color: #797676;
-  border: none;
-  border-radius: 50px 0 0 50px;
-  width: 70%;
+.mail_input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 45px 0 0 45px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: -625px;
+  height: 50px;
 }
 
 .email_label {
   text-align: left;
 }
 
-#sub_button {
+.sub_button {
   display: inline-block;
   background-color: #2f2c2c;
-  padding-top: 15px;
+  padding-top: 13.5px;
   padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 100px;
   border-radius: 0 50px 50px 0;
   font-size: 15px;
   text-transform: uppercase;
-  width: 30%;
   cursor: pointer;
   position: relative;
   color: #fff;
+  width: 30%;
+  height: 50px;
   margin-top: 5px;
   text-align: center;
 }
@@ -97,9 +99,8 @@ img {
   }
 }
 
-
 /* Media Queries for Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .mail {
     width: auto;
     height: auto;
@@ -115,10 +116,47 @@ img {
     padding: 0 20px;
   }
 
-  #mail_input,
-  #sub_button {
+  .mail_input,
+  .sub_button {
     width: 100%;
     border-radius: 50px;
     margin-top: 15px;
   }
+    .sub_button {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+@media (max-width: 570px){
+.field {
+    width: 100%;
+}
+.email_label {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+.subscribe-form {
+  margin-bottom: 25px;
+}
+.mail_input {
+  background-color: #fff;
+  padding: 16px 40px;
+  font-size: 16px;
+  color: #797676;
+  border-color: transparent;
+  border-radius: 50px 0 0 50px;
+  width: 70%;
+  float: left;
+}
+.sub_button {
+    padding: 19px 6px 22px;
+    font-size: 13px;
+}
+.sub_title{
+  
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+
+}
 }

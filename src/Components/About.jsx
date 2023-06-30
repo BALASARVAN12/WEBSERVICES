@@ -3,19 +3,20 @@ import "../Css/About.css"
 import foundation from "../Images/foundation.jpg"
 import team from "../Images/team.jpg"
 import zs from"../Images/zippinderpal-singh.jpg"
-import rs from"../Images/rajendrapal=singh.jpg";
+import rs from"../Images/Rajinderpal-singh.png";
 import NewsLetterform from "./NewsLetterform";
-
+import director from"../Images/director.png"
 import fb from"../Images/fb_icon.jpg"
 import twitter from"../Images/twitter_icon.jpg"
 import mail from"../Images/google_icon.jpg"
-import director from"../Images/director.jpg"
 import hr from"../Images/hr.jpg"
 import msg from"../Images/msg.jpg"
 import at from"../Images/at.jpg"
 import hp from"../Images/hp.jpg"
 import ps from"../Images/ps.jpg"
 import pb from"../Images/pb.jpg"
+import webd from"../Images/webd.png"
+import eye from"../Images/eye.png"
 //import google from "../Images/google_icon.jpg";
 //import linkedin from "../Images/linkedin_logo.jpeg"
 export default function About() {
@@ -26,13 +27,13 @@ export default function About() {
   }
   return (
     <div>
-      <div className="header">
+      <div className="header_about_us">
 About Us
 
       </div>
       <br></br><br></br>
       <div className="border-box">
-        <h2 className="heading">About AlphaNumericIdeas</h2>
+        <h2 className="heading_about">About AlphaNumericIdeas</h2>
         <div className="line"></div>
         <p>
           <b>Alphanumeric Ideas</b> is a digital marketing agency based in Mohali, Punjab, India. We deal in digital empowerment and promotion solutions and have been accredited as one of APAC's top digital marketing agencies.<br></br>
@@ -108,8 +109,8 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={zs} alt="z-s"id="team_image" />
-      <h4>Zippinderpal Singh</h4>
+      <img src={rs} alt="rs"id="team_image" />
+      <h4>Rajinderpal Singh</h4>
       <h5>CEO</h5>
       <div className="social_icon">
         <ul>
@@ -120,9 +121,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={zs} alt="z-s" id="team_image" />
-      <h4>Zippinderpal Singh</h4>
-      <h5>CEO</h5>
+      <img src={director} alt="z-s" id="team_image" />
+      <h4>P Aplinder Kaur</h4>
+      <h5>Director</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -138,9 +139,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
 
   <div className="row">
     <div className="member">
-      <img src={director} alt="member3" id="team_image"/>
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={hr} alt="member3" id="team_image"/>
+      <h4>Gurvinder Singh</h4>
+      <h5>Hr</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -150,9 +151,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={director} alt="member3"id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={ps} alt="member3"id="team_image" />
+      <h4>Prakeet Singh</h4>
+      <h5>Sr. Web Developer</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -162,9 +163,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={director} alt="member3" id="team_image"/>
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={webd} alt="member3" id="team_image"/>
+      <h4>Mohit</h4>
+      <h5>Jr. Web Developer</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -173,15 +174,16 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
         </ul>
       </div>
     </div>
+    
 
-    {/* Repeat the above code for the remaining team members */}
+  
     
   </div>
   <div className="row">
     <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={webd} alt="member3" id="team_image" />
+      <h4>Bala Sarvan Vudathu</h4>
+      <h5>Web Developer Intern</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -191,9 +193,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={webd} alt="member3" id="team_image" />
+      <h4>Bhanu Prasad Bokam</h4>
+      <h5>Web Developer Intern</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -203,9 +205,9 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
       </div>
     </div>
     <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
+      <img src={webd} alt="member3" id="team_image" />
+      <h4>Kampara Manohar</h4>
+      <h5>Web Developer Intern</h5>
       <div className="social_icon">
         <ul>
           <li><a href="#"><img src={fb} alt="" /></a></li>
@@ -214,49 +216,6 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
         </ul>
       </div>
     </div>
-
-    {/* Repeat the above code for the remaining team members */}
-    
-  </div>
-  <div className="row">
-    <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
-      <div className="social_icon">
-        <ul>
-          <li><a href="#"><img src={fb} alt="" /></a></li>
-          <li><a href="#"><img src={twitter} alt="" /></a></li>
-          <li><a href="#"><img src={mail} alt="" /></a></li>
-        </ul>
-      </div>
-    </div>
-    <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
-      <div className="social_icon">
-        <ul>
-          <li><a href="#"><img src={fb} alt="" /></a></li>
-          <li><a href="#"><img src={twitter} alt="" /></a></li>
-          <li><a href="#"><img src={mail} alt="" /></a></li>
-        </ul>
-      </div>
-    </div>
-    <div className="member">
-      <img src={director} alt="member3" id="team_image" />
-      <h4>P Aplinder Kaur</h4>
-      <h5>Director</h5>
-      <div className="social_icon">
-        <ul>
-          <li><a href="#"><img src={fb} alt="" /></a></li>
-          <li><a href="#"><img src={twitter} alt="" /></a></li>
-          <li><a href="#"><img src={mail} alt="" /></a></li>
-        </ul>
-      </div>
-    </div>
-
-    {/* Repeat the above code for the remaining team members */}
     
   </div>
 </div>
@@ -290,11 +249,13 @@ Alphanumeric Ideas is a Digital Growth and Digital Empowerment Organization work
   <div className="vision">
   <h3>Our Vision</h3>
   <div className="line2"></div>
-    <img src={pb} alt="pb" id="our_vison" />
-    <p>mnfinrjvitjvi</p>
-    </div>  
+  <img src={pb} alt="pb"/>
+  <div className="center">Alphanumeric Ideas is a multicultural, multinational and multi-discipline team of individuals who come together to form one team with a focused mission.</div>
+  
 </div>
-<NewsLetterform />
+<img src={eye} alt="eye"/>
+</div>
+<NewsLetterform/>
 </div>
   );
 }

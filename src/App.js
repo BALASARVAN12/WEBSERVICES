@@ -7,10 +7,14 @@ import Ourwork from '../src/Components/Ourwork';
 import Services from '../src/Components/Services';
 import Contact from '../src/Components/Contact';
 import Footer from './Components/Footer';
+import Thankyou from "../src/Components/Thankyou";
+import Headroom from 'react-headroom';
 function App() {
   return (
     <div className="App">
+      <Headroom>
     <Navbar/>
+    </Headroom>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -18,6 +22,7 @@ function App() {
       <Route path='/Ourwork' element={<Ourwork/>}/>
       <Route path='/Services' element={<Services/>}/>
       <Route path='/Contactus' element={<Contact/>}/>
+      <Route path='/Thankyou' element={<Thankyou/>}/>
     </Routes>
     </BrowserRouter>
     <Footer/>

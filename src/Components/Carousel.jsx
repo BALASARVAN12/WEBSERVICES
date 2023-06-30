@@ -60,7 +60,7 @@ const MyCarousel = ({ activeIndex, onSelect }) => {
       </Carousel.Item>
       <Carousel.Item>
         <div className="slide3" style={{ backgroundColor: slideColors[2] }}>
-          <img src={slider3} className="d-block" id="slider3" alt="..." />
+         <a href="/Services"> <img src={slider3} className="d-block" id="slider3" alt="..." /></a>
           <Carousel.Caption>
             <div className="web_design">
               <h3 style={{ color: "#2F2C2C" }}>Web Design</h3> <br />

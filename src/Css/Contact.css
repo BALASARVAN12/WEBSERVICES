@@ -1,6 +1,6 @@
 
-#header{
-    background-image: url("../Images/pattern-bg-brown.jpg");
+#header_contact_us{
+    background-image: url("../Images/pattern-bg-red.jpg");
   height: 350px;
   font-size: 50px;
   line-height: 100px;
@@ -15,11 +15,13 @@
     height: 406px;
     background-color: #fff;
 }
-.get{
-        font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 20px;
 
+
+
+.heading-text_p{
+  text-align: justify;
+  font-size: 24px;
+  line-height: 30px;
 }
 .heading .heading-title {
     font-weight: 400;
@@ -49,22 +51,65 @@
     position: relative;
     transition: all .4s linear;
 }
-.heading .heading-text {
-    font-size: 24px;
-    line-height: 30px;
+
+
+
+.contacts_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 85px;
+  background-color: #f7f9f9;
 }
-.heading p {
-    margin-bottom: 30px;
+.logo_1{
+  margin: 100px auto;
+  width: 75%;
 }
-.heading .heading-text {
-    font-size: 24px;
-    line-height: 30px;
+.logo_2{
+  margin: 100px auto;
+  width: 75%;
 }
-.col-lg-12 {
+.logo_3{
+  margin: 100px auto;
+  width: 75%;
+}
+#img_contact_1{
+  width: 100px;
+  float: left;
+  height: 100px;
+}
+#img_contact_2{
+  width:100px;
+  float: left;
+  height: 100px;
+}
+#img_contact_3{
+  max-width: 100px;
+  float: left;
+  height: 100px;
+}
+.tex_t a{
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+.tex_t {
+  margin-top:10px;
+  align-items: center;
+  font-size: 16px;
+  color: #736F6F;
+  text-align: left;
+
+}
+
+
+.heading {
     position: relative;
     min-height: 1px;
     width: 100%;
     padding-top: 105px;
+    text-align: left  ;
     padding-left: 255px;
 }
 
@@ -74,36 +119,74 @@
     background-color: #f5f5f5;
     border-color: #e8e8e8;
 }
-.contacts-item {
-    display: flex;
-    margin-left: -100px;
-    align-items: center;
-    height: 234px;
-    background-color: aqua;
-  }
+/*submit form section*/
+.contact_form{
+    height: 676px;
 
-
-  
-  .image-container img {
-    width: 50px; /* Adjust the image width as per your preference */
-    height: 50px; /* Adjust the image height as per your preference */
+}
+.contact_form > .left{
+    float: left;
+    
+}
+.contact_form > .right{
+    float: right;
+}
+input,
+textarea {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label{
+    text-align: justify;
+}
+form {
+    max-width: 400px;
+    margin-top: 30px;
+    margin-left: 550px;    
   }
   
-  .content {
-    display: flex;
-    flex-direction: column;
+  .form-group {
+    margin-bottom: 20px;
   }
   
-  .title {
+  label {
+    display: block;
     font-weight: bold;
-    margin-bottom: 5px;
   }
-  
-  .sub-title {
-    margin: 0;
+  button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 255px;
   }
-  
-  .submit_form{
-    background-color: #ffffff;
-    height: 964px;
+  .h4{
+    margin-left: 585px;
   }
+   .heading-line1 {
+    margin-bottom: 20px;
+    position: relative;
+}
+ .heading-line1 .short-line1 {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #4cc2c0;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 10px;
+    transition: all .4s linear;
+    margin-left: 520px;
+}
+ .heading-line1 .long-line2 {
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: #4cc2c0;
+    border-radius: 10px;
+    position: relative;
+    transition: all .4s linear;
+}

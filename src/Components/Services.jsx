@@ -18,7 +18,7 @@ import NewsletterForm from "./NewsLetterform";
 const Services = () => {
   return (
     <div>
-      <div className="header">
+      <div className="header_our_services">
 Our Services
 
 
