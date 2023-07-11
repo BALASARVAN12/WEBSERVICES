@@ -8,13 +8,12 @@ import Services from '../src/Components/Services';
 import Contact from '../src/Components/Contact';
 import Footer from './Components/Footer';
 import Thankyou from "../src/Components/Thankyou";
-import Headroom from 'react-headroom';
 function App() {
   return (
     <div className="App">
-      <Headroom>
+
     <Navbar/>
-    </Headroom>
+ 
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>

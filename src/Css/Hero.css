@@ -211,6 +211,7 @@
   width: 1180px;
   padding-top: 320px;
   padding-left: 300px;
+  transition: transform 5s ease-in-out;
 }
 #slider2 {
   float: right;

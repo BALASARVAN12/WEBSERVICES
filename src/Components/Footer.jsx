@@ -1,5 +1,5 @@
 import React from "react";
-import contact_footer from "../Images/contact_footer_logo.png";
+import contact_footer from "../Images/contact_footer.png";
 import mail_footer from "../Images/mail_footer.png";
 import location_logo from "../Images/location_logo.png";
 import up_arrow from "../Images/up-arrow.png";
@@ -9,6 +9,7 @@ import "../Css/Footer.css";
 export default function vs() {
   return (
     <>
+    <div className="Footer">
       <div className="footer">
         <div className="contacts">
           <div className="contact_1">
@@ -68,6 +69,7 @@ export default function vs() {
             <img src={up_arrow} alt="" id="up_arrow" />
           </a>
         </div>
+      </div>
       </div>
     </>
   );

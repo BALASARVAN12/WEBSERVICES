@@ -1,4 +1,5 @@
 /* About.css */
+
 .line {
   display:inline-flex;
   width: 0;
@@ -8,7 +9,7 @@
 
 }
 .header_about_us{
-  background-image: url("../Images/pattern-bg-brown.jpg");
+  background-image: url("../Images/pattern-bg-rose.jpg");
   height: 350px;
   font-size: 50px;
   line-height: 100px;
@@ -177,10 +178,12 @@ p{
 .ourteam h3{
   color: grey;
 }
-.teammembers{
+.teammembers {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  margin-right: 30px;
 }
+
 .member {
   flex-basis: calc(33.33% - 20px);
   padding: 30px;

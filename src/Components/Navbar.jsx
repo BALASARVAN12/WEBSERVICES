@@ -10,7 +10,7 @@ import "../Css/Navbar.css";
   render() {
   return (
     <>
-    <div>
+    <div className='header animated headroom--not-top headroom--not-bottom swingInX'>
       <nav>
         <a href='/'> <img src={logo} alt="logo" style={{"width":"200px","height":"61px"}}/> </a>
         <div>

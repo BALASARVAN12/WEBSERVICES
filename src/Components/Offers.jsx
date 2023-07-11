@@ -1,9 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../Css/Hero.css";
 import { Link } from "react-router-dom";
 import offers1 from "../Images/offers1.png";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Offers() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="container">
       <div className="row medium-padding120">
@@ -64,7 +68,9 @@ export default function Offers() {
                 </div>
               </div>
               <div className="col-lg-6" id="offers_1">
+              <div data-aos="fade-left" data-aos-delay="300">
                 <img src={offers1} alt="Offers Image" />
+                </div>
               </div>
             </div>
           </div>

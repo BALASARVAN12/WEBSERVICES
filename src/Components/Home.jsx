@@ -2,7 +2,7 @@ import React from "react";
 import "../Css/Home.css";
 import NewsLetterform from "./NewsLetterform";
 import Testimonial from "./Testimonial";
-import Counter from "./Counters";
+import Counter from "./Counters"; 
 import "../Css/Counters.css";
 import Offers from "./Offers";
 import Carousel_banner from "./Carousel";
